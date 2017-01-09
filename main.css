@@ -1,0 +1,84 @@
+/*
+  v1.0 - published 2017-01-08
+  Copyright 2017 Isaac Halvorson
+  Contact me at: isaac@albumart.net
+*/
+
+/*----------------------------- GENERAL STYLING ------------------------------*/
+/*------------- Some styling based on Skeleton (getskeleton.com) -------------*/
+
+html { font-size: 62.5%; }
+
+body {
+  font-size: 1.5em;
+  line-height: 1.2;
+  font-weight: 400;
+  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #222;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+header, main, footer {
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+  margin: 10px auto;
+  max-width: 50%;
+  height: auto;
+  border-radius: 7.5px;
+}
+
+footer p {
+  font-size: .8em;
+  margin: 5px;
+}
+
+a { color: #1EAEDB; }
+a:hover { color: #0FA0CE; }
+
+hr {
+  border-width: 0;
+  border-top: 1px solid #e1e1e1;
+  margin-top: 20px;
+}
+
+.center { text-align: center; }
+#hiddenTitle { display: none; }
+
+/*------------------------------- SOCIAL ICONS -------------------------------*/
+/*---- Some styling based on: https://codepen.io/Deadlymuffin/pen/hGiqo/ -----*/
+
+/* TODO add media queries to make icons look better on smaller screens */
+
+.social-icons li {
+  vertical-align: top;
+  display: inline;
+  height: 100px;
+}
+
+.fa-envelope {
+  padding: 10px 12px;
+  transition: .3s;
+  color: black;
+}
+
+.fa-envelope:hover {
+  color: white;
+  background-color: black;
+}
+
+.fa-twitter {
+  padding: 10px 12px;
+  transition: .3s;
+  color: #00aced;
+}
+
+.fa-twitter:hover {
+  color: white;
+  background-color: #00aced;
+}
